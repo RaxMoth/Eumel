@@ -6,6 +6,7 @@ import Events from "./Events";
 import MonthsPage from "./MonthPage";
 import Talks from "./Talks";
 import Valentines from "./Valentines";
+import Marry from "./Marry";
 
 const App: React.FC = () => {
     return (
@@ -17,6 +18,9 @@ const App: React.FC = () => {
                 <Route path="/months" element={<MonthsPage />} />
                 <Route path="/talks" element={<Talks />} />
                 <Route path="/valentinesday" element={<Valentines />} />
+                <Route path="/valentines" element={<Valentines />} />
+                <Route path="/marry" element={<Marry />} />
+                <Route path="/marryme" element={<Marry />} />
             </Routes>
         </Router>
     );
