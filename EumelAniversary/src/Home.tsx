@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             "Are you sure?",
             "Denk nochmal ganz genau nach :)",
             "Pretty please",
-            "Jetzt machst dus absichtlich",
+            "Jetzt machst dus absichtlich!",
             "Okay kannst du einfach auf ja klicken",
             "PLEASE EUMEL",
             "But :*(",
