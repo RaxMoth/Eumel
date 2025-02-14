@@ -37,6 +37,10 @@ const Home: React.FC = () => {
         navigate("/yes");
     };
 
+    const handlesdsClick = () => {
+        navigate("/valentinesday");
+    };
+
     return (
         <div className="-mt-16 flex h-screen flex-col items-center justify-center">
             <img
@@ -59,6 +63,13 @@ const Home: React.FC = () => {
                     className="rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700"
                 >
                     {noCount === 0 ? "Nein" : getNoButtonText()}
+                </button>
+                <button
+                    className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700 hidden`}
+                    style={{ fontSize: yesButtonSize }}
+                    onClick={handlesdsClick}
+                >
+                    Ja
                 </button>
             </div>
         </div>
